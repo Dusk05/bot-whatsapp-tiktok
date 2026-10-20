@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
     libxcomposite1 \
     libxdamage1 \
     libxrandr2 \
+    libxfixes3 \
     libgbm1 \
     libasound2 \
     libpango-1.0-0 \
