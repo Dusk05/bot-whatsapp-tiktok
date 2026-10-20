@@ -10,7 +10,7 @@ const client = new Client({
 
 client.on('qr', (qr) => {
     console.log('Escanea este código QR con tu WhatsApp:');
-    qrcode.generate(qr, { small: true });
+    qrcode.generate(qr, { small: false });
 });
 
 client.on('ready', async () => {
